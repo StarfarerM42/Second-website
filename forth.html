@@ -17,6 +17,40 @@
 			<li><a href="six.html">Six</a></li>
 		</ul>
 		<h1>Forth</h1>
-		<button>Press me</button>
+		<button style="cursor: pointer">Press me</button>
+		<br /><br /><br />
+		<form
+			action="./submit_page"
+			method="get">
+			<h2>Subscribe to our newsletter</h2>
+			<p>
+				<label for="name">Name (required):</label>
+				<input
+					type="text"
+					name="name"
+					id="name"
+					required />
+			</p>
+			<p>
+				<label for="email">Email (required):</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					required />
+			</p>
+			<p>
+				<button>Sign me up!</button>
+			</p>
+		</form>
 	</body>
+	<script>
+		const btn = document.querySelector('button');
+		btn.addEventListener('click', () => {
+			btn.textContent = 'YOU CLICKED ME!! ❤️';
+			setTimeout(() => {
+				btn.textContent = 'Press me';
+			}, 1000);
+		});
+	</script>
 </html>
