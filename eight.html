@@ -8,6 +8,8 @@
 		<title>Document</title>
 	</head>
 	<body>
+		<h1>Forms</h1>
+		<h2>Form 1</h2>
 		<form>
 			<ul>
 				<li>
@@ -27,6 +29,7 @@
 				<li><button type="submit">Log in</button></li>
 			</ul>
 		</form>
+		<h2>Form 2</h2>
 		<form>
 			<fieldset>
 				<legend>Who is your favorite pony?</legend>
@@ -89,6 +92,7 @@
 			</fieldset>
 			<button>Submit</button>
 		</form>
+		<h2>Form 3</h2>
 		<form>
 			<h2>Edit your preferences</h2>
 			<ul>
@@ -128,6 +132,7 @@
 				</li>
 			</ul>
 		</form>
+		<h2>Form 4</h2>
 		<form>
 			<ul>
 				<li>
@@ -154,6 +159,7 @@
 				</li>
 			</ul>
 		</form>
+		<h2>Form 5</h2>
 		<form>
 			<fieldset>
 				<legend>Personal details</legend>
@@ -187,7 +193,8 @@
 							name="comment" />
 					</li>
 					<li>
-						<label for="email">Email:</label
+						<label for="email"
+							>Email (include if you want a reply):</label
 						><input
 							type="email"
 							id="email"
@@ -197,6 +204,51 @@
 			</fieldset>
 
 			<button>Send</button>
+		</form>
+		<h2>Form 6</h2>
+		<form>
+			<h2>Enter your support query</h2>
+			<ul>
+				<li>
+					<label for="uname">User name:</label>
+					<input
+						type="text"
+						name="uname"
+						id="uname"
+						required
+						minlength="5"
+						maxlength="20" />
+				</li>
+				<li>
+					<label for="email">Email address:</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						required />
+				</li>
+				<li>
+					<label for="phone">Phone number:</label>
+					<input
+						type="tel"
+						name="phone"
+						id="phone"
+						maxlength="15"
+						required />
+				</li>
+				<li>
+					<label for="comment">Comment:</label>
+					<textarea
+						name="comment"
+						id="comment"
+						maxlength="200"
+						required>
+					</textarea>
+				</li>
+				<li>
+					<button type="submit">Submit comment</button>
+				</li>
+			</ul>
 		</form>
 	</body>
 </html>
