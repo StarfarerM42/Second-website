@@ -1,24 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
+	<head>
+		<meta charset="utf-8" />
 
-    <title>HTML debugging examples</title>
+		<title>HTML debugging examples</title>
+	</head>
 
+	<body>
+		<h1>HTML debugging examples</h1>
 
-  </head>
+		<p>What causes errors in HTML?</p>
 
-  <body>
-    <h1>HTML debugging examples</h1>
+		<ul>
+			<li>
+				Unclosed elements: If an element is
+				<strong>not closed properly</strong>, then its effect can spread
+				to areas you didn't intend
+			</li>
 
-    <p>What causes errors in HTML?
+			<li>
+				Badly nested elements: Nesting elements properly is also very
+				important for code behaving correctly.
+				<strong>strong <em>strong emphasised?</em></strong> what is
+				this?
+			</li>
 
-    <ul>
-      <li>Unclosed elements: If an element is <strong>not closed properly, then its effect can spread to areas you didn't intend
-
-      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasised?</strong> what is this?</em>
-
-      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
-    </ul>
-  </body>
+			<li>
+				Unclosed attributes: Another common source of HTML problems.
+				Let's look at an example:
+				<a href="https://www.mozilla.org/>link to Mozilla homepage"
+					>href</a
+				>
+			</li>
+		</ul>
+	</body>
 </html>
