@@ -1,4 +1,4 @@
-html {
+/* html {
 	background-color: green;
 	font-size: 20px;
 }
@@ -11,4 +11,18 @@ ul {
 
 li {
 	margin-left: 20px;
+} */
+
+h1 {
+	color: red;
+}
+p {
+	color: green;
+}
+li {
+	list-style-type: none;
+}
+.special {
+	color: orange;
+	font-weight: bold;
 }
