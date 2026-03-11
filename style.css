@@ -26,3 +26,27 @@ li {
 	color: orange;
 	font-weight: bold;
 }
+li.special,
+span.special {
+	color: orange;
+	font-weight: bold;
+}
+li em {
+	color: rebeccapurple;
+}
+h1 + p {
+	font-size: 200%;
+}
+p em {
+	color: red;
+}
+a:link {
+	color: burlywood;
+}
+
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+}
